@@ -168,6 +168,19 @@ impulse/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/impulse.dir/build.make CMakeFiles/impulse.dir/build
 .PHONY : impulse/fast
 
+#=============================================================================
+# Target rules for targets named sawtooth
+
+# Build rule for target.
+sawtooth: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sawtooth
+.PHONY : sawtooth
+
+# fast build rule for target.
+sawtooth/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sawtooth.dir/build.make CMakeFiles/sawtooth.dir/build
+.PHONY : sawtooth/fast
+
 impulse.o: impulse.cpp.o
 .PHONY : impulse.o
 
@@ -191,6 +204,30 @@ impulse.s: impulse.cpp.s
 impulse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/impulse.dir/build.make CMakeFiles/impulse.dir/impulse.cpp.s
 .PHONY : impulse.cpp.s
+
+sawtooth.o: sawtooth.cpp.o
+.PHONY : sawtooth.o
+
+# target to build an object file
+sawtooth.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sawtooth.dir/build.make CMakeFiles/sawtooth.dir/sawtooth.cpp.o
+.PHONY : sawtooth.cpp.o
+
+sawtooth.i: sawtooth.cpp.i
+.PHONY : sawtooth.i
+
+# target to preprocess a source file
+sawtooth.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sawtooth.dir/build.make CMakeFiles/sawtooth.dir/sawtooth.cpp.i
+.PHONY : sawtooth.cpp.i
+
+sawtooth.s: sawtooth.cpp.s
+.PHONY : sawtooth.s
+
+# target to generate assembly for a file
+sawtooth.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sawtooth.dir/build.make CMakeFiles/sawtooth.dir/sawtooth.cpp.s
+.PHONY : sawtooth.cpp.s
 
 sine-sweep.o: sine-sweep.cpp.o
 .PHONY : sine-sweep.o
@@ -273,12 +310,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... impulse"
+	@echo "... sawtooth"
 	@echo "... sine-sweep"
 	@echo "... wav-read"
 	@echo "... wav-write"
 	@echo "... impulse.o"
 	@echo "... impulse.i"
 	@echo "... impulse.s"
+	@echo "... sawtooth.o"
+	@echo "... sawtooth.i"
+	@echo "... sawtooth.s"
 	@echo "... sine-sweep.o"
 	@echo "... sine-sweep.i"
 	@echo "... sine-sweep.s"

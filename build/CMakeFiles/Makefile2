@@ -67,6 +67,7 @@ all: CMakeFiles/wav-write.dir/all
 all: CMakeFiles/wav-read.dir/all
 all: CMakeFiles/sine-sweep.dir/all
 all: CMakeFiles/impulse.dir/all
+all: CMakeFiles/sawtooth.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -74,6 +75,7 @@ codegen: CMakeFiles/wav-write.dir/codegen
 codegen: CMakeFiles/wav-read.dir/codegen
 codegen: CMakeFiles/sine-sweep.dir/codegen
 codegen: CMakeFiles/impulse.dir/codegen
+codegen: CMakeFiles/sawtooth.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -85,6 +87,7 @@ clean: CMakeFiles/wav-write.dir/clean
 clean: CMakeFiles/wav-read.dir/clean
 clean: CMakeFiles/sine-sweep.dir/clean
 clean: CMakeFiles/impulse.dir/clean
+clean: CMakeFiles/sawtooth.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -94,7 +97,7 @@ clean: CMakeFiles/impulse.dir/clean
 CMakeFiles/wav-write.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wav-write.dir/build.make CMakeFiles/wav-write.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wav-write.dir/build.make CMakeFiles/wav-write.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles --progress-num=7,8 "Built target wav-write"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles --progress-num=9,10 "Built target wav-write"
 .PHONY : CMakeFiles/wav-write.dir/all
 
 # Build rule for subdir invocation for target.
@@ -111,7 +114,7 @@ wav-write: CMakeFiles/wav-write.dir/rule
 # codegen rule for target.
 CMakeFiles/wav-write.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wav-write.dir/build.make CMakeFiles/wav-write.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles --progress-num=7,8 "Finished codegen for target wav-write"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles --progress-num=9,10 "Finished codegen for target wav-write"
 .PHONY : CMakeFiles/wav-write.dir/codegen
 
 # clean rule for target.
@@ -126,7 +129,7 @@ CMakeFiles/wav-write.dir/clean:
 CMakeFiles/wav-read.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wav-read.dir/build.make CMakeFiles/wav-read.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wav-read.dir/build.make CMakeFiles/wav-read.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles --progress-num=5,6 "Built target wav-read"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles --progress-num=7,8 "Built target wav-read"
 .PHONY : CMakeFiles/wav-read.dir/all
 
 # Build rule for subdir invocation for target.
@@ -143,7 +146,7 @@ wav-read: CMakeFiles/wav-read.dir/rule
 # codegen rule for target.
 CMakeFiles/wav-read.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wav-read.dir/build.make CMakeFiles/wav-read.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles --progress-num=5,6 "Finished codegen for target wav-read"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles --progress-num=7,8 "Finished codegen for target wav-read"
 .PHONY : CMakeFiles/wav-read.dir/codegen
 
 # clean rule for target.
@@ -158,7 +161,7 @@ CMakeFiles/wav-read.dir/clean:
 CMakeFiles/sine-sweep.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sine-sweep.dir/build.make CMakeFiles/sine-sweep.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sine-sweep.dir/build.make CMakeFiles/sine-sweep.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles --progress-num=3,4 "Built target sine-sweep"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles --progress-num=5,6 "Built target sine-sweep"
 .PHONY : CMakeFiles/sine-sweep.dir/all
 
 # Build rule for subdir invocation for target.
@@ -175,7 +178,7 @@ sine-sweep: CMakeFiles/sine-sweep.dir/rule
 # codegen rule for target.
 CMakeFiles/sine-sweep.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sine-sweep.dir/build.make CMakeFiles/sine-sweep.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles --progress-num=3,4 "Finished codegen for target sine-sweep"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles --progress-num=5,6 "Finished codegen for target sine-sweep"
 .PHONY : CMakeFiles/sine-sweep.dir/codegen
 
 # clean rule for target.
@@ -214,6 +217,38 @@ CMakeFiles/impulse.dir/codegen:
 CMakeFiles/impulse.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/impulse.dir/build.make CMakeFiles/impulse.dir/clean
 .PHONY : CMakeFiles/impulse.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sawtooth.dir
+
+# All Build rule for target.
+CMakeFiles/sawtooth.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sawtooth.dir/build.make CMakeFiles/sawtooth.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sawtooth.dir/build.make CMakeFiles/sawtooth.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles --progress-num=3,4 "Built target sawtooth"
+.PHONY : CMakeFiles/sawtooth.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sawtooth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sawtooth.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles 0
+.PHONY : CMakeFiles/sawtooth.dir/rule
+
+# Convenience name for target.
+sawtooth: CMakeFiles/sawtooth.dir/rule
+.PHONY : sawtooth
+
+# codegen rule for target.
+CMakeFiles/sawtooth.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sawtooth.dir/build.make CMakeFiles/sawtooth.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles --progress-num=3,4 "Finished codegen for target sawtooth"
+.PHONY : CMakeFiles/sawtooth.dir/codegen
+
+# clean rule for target.
+CMakeFiles/sawtooth.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sawtooth.dir/build.make CMakeFiles/sawtooth.dir/clean
+.PHONY : CMakeFiles/sawtooth.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

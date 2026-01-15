@@ -22,5 +22,11 @@
   "command": "/usr/bin/clang++   -g -std=c++14 -arch arm64 -o CMakeFiles/impulse.dir/impulse.cpp.o -c /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/impulse.cpp",
   "file": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/impulse.cpp",
   "output": "CMakeFiles/impulse.dir/impulse.cpp.o"
+},
+{
+  "directory": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build",
+  "command": "/usr/bin/clang++   -g -std=c++14 -arch arm64 -o CMakeFiles/sawtooth.dir/sawtooth.cpp.o -c /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/sawtooth.cpp",
+  "file": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/sawtooth.cpp",
+  "output": "CMakeFiles/sawtooth.dir/sawtooth.cpp.o"
 }
 ]
