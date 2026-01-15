@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UNIX",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sine-sweep::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sine-sweep-Debug-8c2e1391db02d097b898.json",
+					"name" : "sine-sweep",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wav-read::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wav-read-Debug-26e52b796248000217ed.json",
+					"name" : "wav-read",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wav-write::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wav-write-Debug-b6be752e6e1a8f046b3a.json",
+					"name" : "wav-write",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build",
+		"source" : "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

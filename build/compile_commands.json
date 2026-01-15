@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build",
+  "command": "/usr/bin/clang++   -g -std=c++14 -arch arm64 -o CMakeFiles/wav-write.dir/wav-write.cpp.o -c /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/wav-write.cpp",
+  "file": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/wav-write.cpp",
+  "output": "CMakeFiles/wav-write.dir/wav-write.cpp.o"
+},
+{
+  "directory": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build",
+  "command": "/usr/bin/clang++   -g -std=c++14 -arch arm64 -o CMakeFiles/wav-read.dir/wav-read.cpp.o -c /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/wav-read.cpp",
+  "file": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/wav-read.cpp",
+  "output": "CMakeFiles/wav-read.dir/wav-read.cpp.o"
+},
+{
+  "directory": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build",
+  "command": "/usr/bin/clang++   -g -std=c++14 -arch arm64 -o CMakeFiles/sine-sweep.dir/sine-sweep.cpp.o -c /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/sine-sweep.cpp",
+  "file": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/sine-sweep.cpp",
+  "output": "CMakeFiles/sine-sweep.dir/sine-sweep.cpp.o"
+}
+]
