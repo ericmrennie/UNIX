@@ -1,5 +1,6 @@
 /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles/wav-write.dir
 /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles/wav-read.dir
 /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles/sine-sweep.dir
+/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles/impulse.dir
 /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles/edit_cache.dir
 /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build/CMakeFiles/rebuild_cache.dir

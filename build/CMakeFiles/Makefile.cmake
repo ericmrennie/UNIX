@@ -59,4 +59,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/wav-write.dir/DependInfo.cmake"
   "CMakeFiles/wav-read.dir/DependInfo.cmake"
   "CMakeFiles/sine-sweep.dir/DependInfo.cmake"
+  "CMakeFiles/impulse.dir/DependInfo.cmake"
   )

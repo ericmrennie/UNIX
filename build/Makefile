@@ -155,6 +155,43 @@ sine-sweep/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sine-sweep.dir/build.make CMakeFiles/sine-sweep.dir/build
 .PHONY : sine-sweep/fast
 
+#=============================================================================
+# Target rules for targets named impulse
+
+# Build rule for target.
+impulse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 impulse
+.PHONY : impulse
+
+# fast build rule for target.
+impulse/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/impulse.dir/build.make CMakeFiles/impulse.dir/build
+.PHONY : impulse/fast
+
+impulse.o: impulse.cpp.o
+.PHONY : impulse.o
+
+# target to build an object file
+impulse.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/impulse.dir/build.make CMakeFiles/impulse.dir/impulse.cpp.o
+.PHONY : impulse.cpp.o
+
+impulse.i: impulse.cpp.i
+.PHONY : impulse.i
+
+# target to preprocess a source file
+impulse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/impulse.dir/build.make CMakeFiles/impulse.dir/impulse.cpp.i
+.PHONY : impulse.cpp.i
+
+impulse.s: impulse.cpp.s
+.PHONY : impulse.s
+
+# target to generate assembly for a file
+impulse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/impulse.dir/build.make CMakeFiles/impulse.dir/impulse.cpp.s
+.PHONY : impulse.cpp.s
+
 sine-sweep.o: sine-sweep.cpp.o
 .PHONY : sine-sweep.o
 
@@ -235,9 +272,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... impulse"
 	@echo "... sine-sweep"
 	@echo "... wav-read"
 	@echo "... wav-write"
+	@echo "... impulse.o"
+	@echo "... impulse.i"
+	@echo "... impulse.s"
 	@echo "... sine-sweep.o"
 	@echo "... sine-sweep.i"
 	@echo "... sine-sweep.s"
