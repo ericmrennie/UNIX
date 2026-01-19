@@ -61,4 +61,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/sine-sweep.dir/DependInfo.cmake"
   "CMakeFiles/impulse.dir/DependInfo.cmake"
   "CMakeFiles/sawtooth.dir/DependInfo.cmake"
+  "CMakeFiles/square.dir/DependInfo.cmake"
+  "CMakeFiles/triangle.dir/DependInfo.cmake"
+  "CMakeFiles/impulse-sweep.dir/DependInfo.cmake"
+  "CMakeFiles/sawtooth-sweep.dir/DependInfo.cmake"
+  "CMakeFiles/square-sweep.dir/DependInfo.cmake"
+  "CMakeFiles/triangle-sweep.dir/DependInfo.cmake"
   )

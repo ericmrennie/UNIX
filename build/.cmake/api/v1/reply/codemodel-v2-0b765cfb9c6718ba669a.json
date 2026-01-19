@@ -20,7 +20,13 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
 					]
 				}
 			],
@@ -39,7 +45,13 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
 					]
 				}
 			],
@@ -54,6 +66,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "impulse-sweep::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-impulse-sweep-Debug-4f3d2f4eaa140d957d9d.json",
+					"name" : "impulse-sweep",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "sawtooth::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-sawtooth-Debug-affb8973e3a6096717fa.json",
 					"name" : "sawtooth",
@@ -61,9 +80,44 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "sawtooth-sweep::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sawtooth-sweep-Debug-d18fc7bcc16b462c2dbe.json",
+					"name" : "sawtooth-sweep",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "sine-sweep::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-sine-sweep-Debug-8c2e1391db02d097b898.json",
 					"name" : "sine-sweep",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "square::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-square-Debug-f56905f07b2115c23889.json",
+					"name" : "square",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "square-sweep::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-square-sweep-Debug-3efe9b2e32ebb34cb998.json",
+					"name" : "square-sweep",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "triangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-triangle-Debug-3c5f53de6c8cfb9069bf.json",
+					"name" : "triangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "triangle-sweep::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-triangle-sweep-Debug-2569cf481a0b5a8e7c1d.json",
+					"name" : "triangle-sweep",
 					"projectIndex" : 0
 				},
 				{

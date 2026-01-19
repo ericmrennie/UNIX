@@ -181,6 +181,108 @@ sawtooth/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sawtooth.dir/build.make CMakeFiles/sawtooth.dir/build
 .PHONY : sawtooth/fast
 
+#=============================================================================
+# Target rules for targets named square
+
+# Build rule for target.
+square: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 square
+.PHONY : square
+
+# fast build rule for target.
+square/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/build
+.PHONY : square/fast
+
+#=============================================================================
+# Target rules for targets named triangle
+
+# Build rule for target.
+triangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 triangle
+.PHONY : triangle
+
+# fast build rule for target.
+triangle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangle.dir/build.make CMakeFiles/triangle.dir/build
+.PHONY : triangle/fast
+
+#=============================================================================
+# Target rules for targets named impulse-sweep
+
+# Build rule for target.
+impulse-sweep: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 impulse-sweep
+.PHONY : impulse-sweep
+
+# fast build rule for target.
+impulse-sweep/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/impulse-sweep.dir/build.make CMakeFiles/impulse-sweep.dir/build
+.PHONY : impulse-sweep/fast
+
+#=============================================================================
+# Target rules for targets named sawtooth-sweep
+
+# Build rule for target.
+sawtooth-sweep: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sawtooth-sweep
+.PHONY : sawtooth-sweep
+
+# fast build rule for target.
+sawtooth-sweep/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sawtooth-sweep.dir/build.make CMakeFiles/sawtooth-sweep.dir/build
+.PHONY : sawtooth-sweep/fast
+
+#=============================================================================
+# Target rules for targets named square-sweep
+
+# Build rule for target.
+square-sweep: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 square-sweep
+.PHONY : square-sweep
+
+# fast build rule for target.
+square-sweep/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square-sweep.dir/build.make CMakeFiles/square-sweep.dir/build
+.PHONY : square-sweep/fast
+
+#=============================================================================
+# Target rules for targets named triangle-sweep
+
+# Build rule for target.
+triangle-sweep: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 triangle-sweep
+.PHONY : triangle-sweep
+
+# fast build rule for target.
+triangle-sweep/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangle-sweep.dir/build.make CMakeFiles/triangle-sweep.dir/build
+.PHONY : triangle-sweep/fast
+
+impulse-sweep.o: impulse-sweep.cpp.o
+.PHONY : impulse-sweep.o
+
+# target to build an object file
+impulse-sweep.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/impulse-sweep.dir/build.make CMakeFiles/impulse-sweep.dir/impulse-sweep.cpp.o
+.PHONY : impulse-sweep.cpp.o
+
+impulse-sweep.i: impulse-sweep.cpp.i
+.PHONY : impulse-sweep.i
+
+# target to preprocess a source file
+impulse-sweep.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/impulse-sweep.dir/build.make CMakeFiles/impulse-sweep.dir/impulse-sweep.cpp.i
+.PHONY : impulse-sweep.cpp.i
+
+impulse-sweep.s: impulse-sweep.cpp.s
+.PHONY : impulse-sweep.s
+
+# target to generate assembly for a file
+impulse-sweep.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/impulse-sweep.dir/build.make CMakeFiles/impulse-sweep.dir/impulse-sweep.cpp.s
+.PHONY : impulse-sweep.cpp.s
+
 impulse.o: impulse.cpp.o
 .PHONY : impulse.o
 
@@ -204,6 +306,30 @@ impulse.s: impulse.cpp.s
 impulse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/impulse.dir/build.make CMakeFiles/impulse.dir/impulse.cpp.s
 .PHONY : impulse.cpp.s
+
+sawtooth-sweep.o: sawtooth-sweep.cpp.o
+.PHONY : sawtooth-sweep.o
+
+# target to build an object file
+sawtooth-sweep.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sawtooth-sweep.dir/build.make CMakeFiles/sawtooth-sweep.dir/sawtooth-sweep.cpp.o
+.PHONY : sawtooth-sweep.cpp.o
+
+sawtooth-sweep.i: sawtooth-sweep.cpp.i
+.PHONY : sawtooth-sweep.i
+
+# target to preprocess a source file
+sawtooth-sweep.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sawtooth-sweep.dir/build.make CMakeFiles/sawtooth-sweep.dir/sawtooth-sweep.cpp.i
+.PHONY : sawtooth-sweep.cpp.i
+
+sawtooth-sweep.s: sawtooth-sweep.cpp.s
+.PHONY : sawtooth-sweep.s
+
+# target to generate assembly for a file
+sawtooth-sweep.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sawtooth-sweep.dir/build.make CMakeFiles/sawtooth-sweep.dir/sawtooth-sweep.cpp.s
+.PHONY : sawtooth-sweep.cpp.s
 
 sawtooth.o: sawtooth.cpp.o
 .PHONY : sawtooth.o
@@ -252,6 +378,102 @@ sine-sweep.s: sine-sweep.cpp.s
 sine-sweep.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sine-sweep.dir/build.make CMakeFiles/sine-sweep.dir/sine-sweep.cpp.s
 .PHONY : sine-sweep.cpp.s
+
+square-sweep.o: square-sweep.cpp.o
+.PHONY : square-sweep.o
+
+# target to build an object file
+square-sweep.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square-sweep.dir/build.make CMakeFiles/square-sweep.dir/square-sweep.cpp.o
+.PHONY : square-sweep.cpp.o
+
+square-sweep.i: square-sweep.cpp.i
+.PHONY : square-sweep.i
+
+# target to preprocess a source file
+square-sweep.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square-sweep.dir/build.make CMakeFiles/square-sweep.dir/square-sweep.cpp.i
+.PHONY : square-sweep.cpp.i
+
+square-sweep.s: square-sweep.cpp.s
+.PHONY : square-sweep.s
+
+# target to generate assembly for a file
+square-sweep.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square-sweep.dir/build.make CMakeFiles/square-sweep.dir/square-sweep.cpp.s
+.PHONY : square-sweep.cpp.s
+
+square.o: square.cpp.o
+.PHONY : square.o
+
+# target to build an object file
+square.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/square.cpp.o
+.PHONY : square.cpp.o
+
+square.i: square.cpp.i
+.PHONY : square.i
+
+# target to preprocess a source file
+square.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/square.cpp.i
+.PHONY : square.cpp.i
+
+square.s: square.cpp.s
+.PHONY : square.s
+
+# target to generate assembly for a file
+square.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/square.cpp.s
+.PHONY : square.cpp.s
+
+triangle-sweep.o: triangle-sweep.cpp.o
+.PHONY : triangle-sweep.o
+
+# target to build an object file
+triangle-sweep.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangle-sweep.dir/build.make CMakeFiles/triangle-sweep.dir/triangle-sweep.cpp.o
+.PHONY : triangle-sweep.cpp.o
+
+triangle-sweep.i: triangle-sweep.cpp.i
+.PHONY : triangle-sweep.i
+
+# target to preprocess a source file
+triangle-sweep.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangle-sweep.dir/build.make CMakeFiles/triangle-sweep.dir/triangle-sweep.cpp.i
+.PHONY : triangle-sweep.cpp.i
+
+triangle-sweep.s: triangle-sweep.cpp.s
+.PHONY : triangle-sweep.s
+
+# target to generate assembly for a file
+triangle-sweep.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangle-sweep.dir/build.make CMakeFiles/triangle-sweep.dir/triangle-sweep.cpp.s
+.PHONY : triangle-sweep.cpp.s
+
+triangle.o: triangle.cpp.o
+.PHONY : triangle.o
+
+# target to build an object file
+triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangle.dir/build.make CMakeFiles/triangle.dir/triangle.cpp.o
+.PHONY : triangle.cpp.o
+
+triangle.i: triangle.cpp.i
+.PHONY : triangle.i
+
+# target to preprocess a source file
+triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangle.dir/build.make CMakeFiles/triangle.dir/triangle.cpp.i
+.PHONY : triangle.cpp.i
+
+triangle.s: triangle.cpp.s
+.PHONY : triangle.s
+
+# target to generate assembly for a file
+triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangle.dir/build.make CMakeFiles/triangle.dir/triangle.cpp.s
+.PHONY : triangle.cpp.s
 
 wav-read.o: wav-read.cpp.o
 .PHONY : wav-read.o
@@ -310,19 +532,43 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... impulse"
+	@echo "... impulse-sweep"
 	@echo "... sawtooth"
+	@echo "... sawtooth-sweep"
 	@echo "... sine-sweep"
+	@echo "... square"
+	@echo "... square-sweep"
+	@echo "... triangle"
+	@echo "... triangle-sweep"
 	@echo "... wav-read"
 	@echo "... wav-write"
+	@echo "... impulse-sweep.o"
+	@echo "... impulse-sweep.i"
+	@echo "... impulse-sweep.s"
 	@echo "... impulse.o"
 	@echo "... impulse.i"
 	@echo "... impulse.s"
+	@echo "... sawtooth-sweep.o"
+	@echo "... sawtooth-sweep.i"
+	@echo "... sawtooth-sweep.s"
 	@echo "... sawtooth.o"
 	@echo "... sawtooth.i"
 	@echo "... sawtooth.s"
 	@echo "... sine-sweep.o"
 	@echo "... sine-sweep.i"
 	@echo "... sine-sweep.s"
+	@echo "... square-sweep.o"
+	@echo "... square-sweep.i"
+	@echo "... square-sweep.s"
+	@echo "... square.o"
+	@echo "... square.i"
+	@echo "... square.s"
+	@echo "... triangle-sweep.o"
+	@echo "... triangle-sweep.i"
+	@echo "... triangle-sweep.s"
+	@echo "... triangle.o"
+	@echo "... triangle.i"
+	@echo "... triangle.s"
 	@echo "... wav-read.o"
 	@echo "... wav-read.i"
 	@echo "... wav-read.s"

@@ -28,5 +28,41 @@
   "command": "/usr/bin/clang++   -g -std=c++14 -arch arm64 -o CMakeFiles/sawtooth.dir/sawtooth.cpp.o -c /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/sawtooth.cpp",
   "file": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/sawtooth.cpp",
   "output": "CMakeFiles/sawtooth.dir/sawtooth.cpp.o"
+},
+{
+  "directory": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build",
+  "command": "/usr/bin/clang++   -g -std=c++14 -arch arm64 -o CMakeFiles/square.dir/square.cpp.o -c /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/square.cpp",
+  "file": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/square.cpp",
+  "output": "CMakeFiles/square.dir/square.cpp.o"
+},
+{
+  "directory": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build",
+  "command": "/usr/bin/clang++   -g -std=c++14 -arch arm64 -o CMakeFiles/triangle.dir/triangle.cpp.o -c /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/triangle.cpp",
+  "file": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/triangle.cpp",
+  "output": "CMakeFiles/triangle.dir/triangle.cpp.o"
+},
+{
+  "directory": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build",
+  "command": "/usr/bin/clang++   -g -std=c++14 -arch arm64 -o CMakeFiles/impulse-sweep.dir/impulse-sweep.cpp.o -c /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/impulse-sweep.cpp",
+  "file": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/impulse-sweep.cpp",
+  "output": "CMakeFiles/impulse-sweep.dir/impulse-sweep.cpp.o"
+},
+{
+  "directory": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build",
+  "command": "/usr/bin/clang++   -g -std=c++14 -arch arm64 -o CMakeFiles/sawtooth-sweep.dir/sawtooth-sweep.cpp.o -c /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/sawtooth-sweep.cpp",
+  "file": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/sawtooth-sweep.cpp",
+  "output": "CMakeFiles/sawtooth-sweep.dir/sawtooth-sweep.cpp.o"
+},
+{
+  "directory": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build",
+  "command": "/usr/bin/clang++   -g -std=c++14 -arch arm64 -o CMakeFiles/square-sweep.dir/square-sweep.cpp.o -c /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/square-sweep.cpp",
+  "file": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/square-sweep.cpp",
+  "output": "CMakeFiles/square-sweep.dir/square-sweep.cpp.o"
+},
+{
+  "directory": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/build",
+  "command": "/usr/bin/clang++   -g -std=c++14 -arch arm64 -o CMakeFiles/triangle-sweep.dir/triangle-sweep.cpp.o -c /Users/ericmrennie/Desktop/MAT240B-2026/UNIX/triangle-sweep.cpp",
+  "file": "/Users/ericmrennie/Desktop/MAT240B-2026/UNIX/triangle-sweep.cpp",
+  "output": "CMakeFiles/triangle-sweep.dir/triangle-sweep.cpp.o"
 }
 ]
